@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		real num1, num2, resultado,operacao [soma,subtracao,divisao,multiplicacao] 
+		real num1, num2, resultado, [soma,subtracao,divisao,multiplicacao] 
 		escreva(" Escolha o número 1\n" )
 		leia(num1)
 		escreva(" Escolha o número 2" )
@@ -18,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 76; 
+ * @POSICAO-CURSOR = 62; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
