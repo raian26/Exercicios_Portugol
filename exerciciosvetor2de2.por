@@ -16,19 +16,22 @@ programa
              	soma += lancamentoDado[i] }
               limpa()
               maior = lancamentoDado[0]
-              
-              para(inteiro i=0;i<10;i++){
-            
+                        
+            para(inteiro i=0;i<10;i++){
              se(maior<=lancamentoDado[i]){
-             	maior = lancamentoDado[i]
-             	ocorrencia++
+                 maior = (lancamentoDado[i])}
+             } 
+             para(inteiro i=0; i<10; i++){
+                 se(maior==lancamentoDado[i]){
+                     ocorrencia++
+                 }
+
              }
-             	
-             } media = soma/10
+             media = soma/10
              escreva(" A média dos lançamentos é de " ,media, " e a ocorrência de maior pontuação foi " ,maior, " em ", ocorrencia, " vezes")
              
             
-             
+                    
 
 	}
 	
@@ -38,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 781; 
+ * @POSICAO-CURSOR = 996; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
